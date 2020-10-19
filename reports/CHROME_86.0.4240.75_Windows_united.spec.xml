@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="6"
+            failures="0"
+            tests="1">
+
+  <testsuite name="united.spec"
+    errors="6" failures="0" hostname="" id="" package="united.spec" skipped="0"
+    tests="1" time="61.23" timestamp="">
+  
+    <testcase name="United search test" classname="united.spec" time="61.23" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <error message="An error occurred while running .getAttribute() command on &lt;#flight-result-list-revised &gt; li:nth-child(5) &gt; div:nth-child(5) div:nth-child(1) div div div:nth-child(2)&gt;: " type="error"><![CDATA[
+    NoSuchElementError: An error occurred while running .getAttribute() command on &lt;#flight-result-list-revised &gt; li:nth-child(5) &gt; div:nth-child(5) div:nth-child(1) div div div:nth-child(2)&gt;: 
+    at GetAttribute.noSuchElementError (C:\Users\hend.ali\AppData\Roaming\npm\node_modules\nightwatch\lib\element\command.js:382:12)
+    at Object.errorHandler (C:\Users\hend.ali\AppData\Roaming\npm\node_modules\nightwatch\lib\api\element-commands\_baseElementCommand.js:42:30)
+    at PeriodicPromise.runAction (C:\Users\hend.ali\AppData\Roaming\npm\node_modules\nightwatch\lib\utils\periodic-promise.js:64:29)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .click() command on &lt;Element [name=@ClearButton]&gt;: 
+   {&#34;sessionId&#34;:&#34;dd3c082354e48e6606af0c12847edffd&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .getAttribute() command on &lt;#flight-result-list-revised &gt; li:nth-child(5) &gt; div.flight-block-summary-container &gt; div.lof-summary.flight-summary &gt; div.flight-summary-top &gt; div.flight-time.flight-time-depart&gt;: 
+   {&#34;sessionId&#34;:&#34;dd3c082354e48e6606af0c12847edffd&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .getAttribute() command on &lt;#flight-result-list-revised &gt; li:nth-child(5) &gt; div.flight-block-summary-container &gt; div.lof-summary.flight-summary &gt; div.flight-summary-top &gt; div.flight-time.flight-time-arrive&gt;: 
+   {&#34;sessionId&#34;:&#34;dd3c082354e48e6606af0c12847edffd&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .getAttribute() command on &lt;#flight-result-list-revised &gt; li:nth-child(5) &gt; div.flight-block-summary-container &gt; div.lof-summary.flight-summary &gt; div.flight-summary-top &gt; div.flight-connection-container &gt; a&gt;: 
+   {&#34;sessionId&#34;:&#34;dd3c082354e48e6606af0c12847edffd&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .getAttribute() command on &lt;#flight-result-list-revised &gt; li:nth-child(5) &gt; div.flight-block-summary-container &gt; div.lof-summary.flight-summary &gt; div.flight-summary-bottom &gt; a&gt;: 
+   {&#34;sessionId&#34;:&#34;dd3c082354e48e6606af0c12847edffd&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .getAttribute() command on &lt;#flight-result-list-revised &gt; li:nth-child(5) &gt; div:nth-child(5) div:nth-child(1) div div div:nth-child(2)&gt;: 
+   {&#34;sessionId&#34;:&#34;dd3c082354e48e6606af0c12847edffd&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
